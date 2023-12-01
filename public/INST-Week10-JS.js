@@ -12,7 +12,7 @@ async function getCustomers() {
         .then(async res => {
             console.log(res)
             
-            const element = docdcument.getElementById('errorBox')
+            const element = document.getElementById('errorBox')
             if(element) {
                 element.remove();
             }
